@@ -1,0 +1,23 @@
+# 기본 프레임워크
+fastapi==0.103.1
+uvicorn==0.23.2
+
+# 슬랙 연동
+slack-sdk==3.21.3
+slack-bolt==1.18.0
+
+# HTTP 요청 관련
+requests==2.31.0
+httpx==0.24.1
+
+# Google Gemini AI 연동
+google-generativeai==0.3.1
+google-adk==0.0.10
+
+# 환경변수 및 설정 관리
+python-dotenv==1.0.0
+pydantic==2.4.2
+
+# 유틸리티
+aiofiles==23.1.0
+python-multipart==0.0.6
