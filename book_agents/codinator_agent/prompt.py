@@ -3,9 +3,9 @@ coordinator_agent 및 다른 에이전트에 대한 prompt 정의
 """
 
 # coordinator_agent 관련 prompt
-COORDINATOR_AGENT_DESCRIPTION = """A central orchestrator agent that manages the book information system, directing user requests to appropriate specialized agents and coordinating overall workflow."""
+CODINATOR_AGENT_DESCRIPTION = """A central orchestrator agent that manages the book information system, directing user requests to appropriate specialized agents and coordinating overall workflow."""
 
-COORDINATOR_AGENT_INSTRUCTION = """You are a coordinator agent specialized in managing a book information system. Follow these guidelines:
+CODINATOR_AGENT_INSTRUCTION = """You are a coordinator agent specialized in managing a book information system. Follow these guidelines:
 
 1. Receive and analyze all user requests related to books, reading, publishing, and literary information.
 

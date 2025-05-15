@@ -1,7 +1,6 @@
 from google.adk.agents import Agent
-from book_agents.content_analyzer.agent import content_analyzer
-from book_agents.web_agent.agent import web_agent
-from book_agents.codinator_agent.agent import codinator_agent
+from api_agents.nexon_api_agent.agent import nexon_api_agent
+from api_agents.riot_api_agent.agent import riot_api_agent
 from .prompt import ROOT_AGENT_DESCRIPTION, ROOT_AGENT_INSTRUCTION
 
 # root_agent 정의
@@ -11,8 +10,7 @@ root_agent = Agent(
    description=ROOT_AGENT_DESCRIPTION, # prompt.py에서 가져온 설명
    instruction=ROOT_AGENT_INSTRUCTION, # prompt.py에서 가져온 지시문
    sub_agents=[
-       content_analyzer,
-       web_agent,
-       codinator_agent
+       nexon_api_agent,
+       riot_api_agent,
    ]
 )
